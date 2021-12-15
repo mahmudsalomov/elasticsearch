@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SearchRequestDTO {
+
     private List<String> fields;
     private String searchTerm;
 }
