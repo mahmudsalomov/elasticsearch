@@ -22,8 +22,8 @@ public class DataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        for (int i = 0; i <100000 ; i++) {
-            personService.save(new Person(UUID.randomUUID().toString(),""+i));
-        }
+//        for (int i = 0; i <100000 ; i++) {
+//            personService.save(new Person(UUID.randomUUID().toString(),""+i));
+//        }
     }
 }

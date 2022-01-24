@@ -1,6 +1,6 @@
 package uz.java.maniac.elasticsearch.service;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.*;
 import uz.java.maniac.elasticsearch.document.Person;
 import uz.java.maniac.elasticsearch.repository.PersonRepository;
 
